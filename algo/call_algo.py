@@ -13,7 +13,7 @@ def call_algo(algo_name, config, mode, device):
         algo_name = algo_name.lower()
         assert algo_name in ["v2a_igdf"]
         # offline offline setting
-        from offline_offline.v2a_igdf import V2A_IGDF
+        from algo.offline_offline.v2a_igdf import V2A_IGDF
 
         algo_to_call = {
             "v2a_igdf": V2A_IGDF,
